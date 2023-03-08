@@ -1,0 +1,89 @@
+.find_container {
+  display: block;
+  text-align: center;
+  height: 100vh;
+}
+
+.find_layout {
+  display: block;
+  width: 610px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.find_layout_inside {
+  margin: 10px 80px;
+  padding-bottom: 88px;
+  background-color: #fff;
+}
+
+.register_header {
+  padding-top: 88px;
+  padding-bottom: 56px;
+}
+
+.top_text {
+  text-align: left;
+}
+
+.top_sub {
+  margin-top: 12px;
+  padding: 16px;
+  background-color: #f3f5f7;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #52595f;
+  margin-bottom: 32px;
+  text-align: left;
+}
+.find_input_box {
+  display: block;
+
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  outline: 0;
+}
+
+.find_input {
+  margin-top: 27px;
+  position: relative;
+  padding: 10px 0 11px;
+  border-bottom: 1px solid #dddfe4;
+}
+
+.cancel_btn {
+  color: white;
+  margin-right: 15px;
+  margin-top: 40px;
+  font-weight: 400;
+  background: #1e2022;
+  font-size: 16px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  width: 46%;
+  border: 0;
+  height: 56px;
+}
+
+.sumbit_btn {
+  color: white;
+  font-weight: 400;
+  background: #1ea1f7;
+  font-size: 16px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  width: 46%;
+  border: 0;
+  height: 56px;
+  margin-left: 15px;
+}
+
+.find_layout_logo_img {
+  width: 260px;
+  height: 200px;
+}
