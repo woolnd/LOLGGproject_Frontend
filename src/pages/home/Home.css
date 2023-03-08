@@ -1,0 +1,95 @@
+.home_container {
+  background-color: #5383e8;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* 제일 큰 div 컨테이너 박스 */
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* lol.gg 로고에 패딩넣고 띄우기 */
+.logo {
+  padding: 32px 0 24px;
+}
+
+/* 로고 이미지 정렬하기 */
+.logo img {
+  display: block;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+/* 소환사 검색란 크기 */
+.summoner_search {
+  position: relative;
+  width: 624px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+/* 소환사 검색란 */
+.summoner_search_input {
+  display: block;
+  width: 100%;
+  padding: 15px 150px 18px 17px;
+  background: none;
+  border: none;
+  line-height: 17px;
+  font-size: 14px;
+  color: #9b9b9b;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 소환사 검색버튼 */
+.summoner_search_btn {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  margin: 10px 10px 0 0;
+  height: 30px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* header 부분 li, ul 양식 */
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header 부분  css 양식 */
+.menu {
+  display: flex;
+
+  align-items: center;
+  list-style: none;
+}
+
+/* header 부분  폰트 사이즈 */
+.menu__item {
+  font-size: 15px;
+}
+
+/* header a태그 꾸미기 */
+a {
+  text-decoration: none;
+  outline: none;
+  color: #b3cdff;
+}
+
+/* header 탭 간격 띄우기 */
+li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
